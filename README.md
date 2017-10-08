@@ -12,7 +12,7 @@ Run this command from the directory in which you want to install your new applic
 
 You can run application in development with this command:
 
-    php -S localhost:8080 -t public index.php
+    php -S localhost:8080 index.php
     
 or composer one:
 
