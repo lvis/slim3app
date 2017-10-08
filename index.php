@@ -11,8 +11,8 @@ if ( PHP_SAPI == 'cli-server' ) {
 		return false;
 	}
 }
-require_once 'vendor/autoload.php';
+require 'vendor/autoload.php';
 session_start();
 $app = new Slim\App();
-require_once 'init.php';
+require __DIR__.'/init.php';
 $app->run();
